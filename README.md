@@ -20,5 +20,6 @@
 - there can be only one instance of connected adb device
 
 ### Roadmap:
-- shoortcuts
+- shoortcuts (cmd + M, arrows, enter, back)
 - tooltips on mouse over
+- long press support
