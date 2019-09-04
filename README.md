@@ -19,6 +19,11 @@
 - adb located in `~/Library/Android/sdk/platform-tools/adb` if your path to adb is different please change it in `Utils.swift` class.
 - there can be only one instance of connected adb device
 
+### How to use:
+- Start emulator or connect your device via adb
+- Open this project in XCode and run
+- The remote is now ready to use.
+
 ### Roadmap:
 - shoortcuts (cmd + M, arrows, enter, back)
 - tooltips on mouse over
