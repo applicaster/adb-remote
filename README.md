@@ -14,7 +14,7 @@
 - it connects to real device via adb, so keys not supported by device can be tested
 
 ### Compiling remote adb require:
-- Mac OS v. `10.15 Catalina` is expected to release around Monday 23 September 2019, until then there is beta version,
+- Mac OS v. `10.15 Catalina`
 - XCode 11,
 - adb located in `~/Library/Android/sdk/platform-tools/adb` if your path to adb is different please change it in `Utils.swift` class.
 - there can be only one instance of connected adb device
