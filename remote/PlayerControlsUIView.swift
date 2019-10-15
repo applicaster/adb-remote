@@ -16,25 +16,25 @@ struct PlayerControlsUIView : View {
         HStack{
             Button(action: { shell("shell","input","keyevent","88")}){  Image("prev") .renderingMode(fullColorRenderMode).resizable().frame(width: 34, height: 34)
                 }
-                .borderlessButtonStyle()
+                .buttonStyle(BorderlessButtonStyle())
                 .frame(width: 34, height: 34)
             
             Button(action: { shell("shell","input","keyevent","89")}){
                 Image("rw") .renderingMode(fullColorRenderMode).resizable().frame(width: 34, height: 34)}
-                .borderlessButtonStyle()
+                .buttonStyle(BorderlessButtonStyle())
                 .frame(width: 34, height: 34)
             
             Button(action: { shell("shell","input","keyevent","85")}){
                 Image("play_pause") .renderingMode(fullColorRenderMode).resizable().frame(width: 34, height: 34)
                 }
-                .borderlessButtonStyle()
+                .buttonStyle(BorderlessButtonStyle())
                 .frame(width: 34, height: 34)
             
             Button(action: { shell("shell","input","keyevent","90")}){  Image("ff") .renderingMode(fullColorRenderMode).resizable().frame(width: 34, height: 34)}
-                .borderlessButtonStyle()
+                .buttonStyle(BorderlessButtonStyle())
                 .frame(width: 34, height: 34)
             Button(action: { shell("shell","input","keyevent","87")}){  Image("next") .renderingMode(fullColorRenderMode).resizable().frame(width: 34, height: 34)}
-                .borderlessButtonStyle()
+                .buttonStyle(BorderlessButtonStyle())
                 .frame(width: 34, height: 34)
             }
             .padding(20)

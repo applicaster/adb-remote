@@ -19,18 +19,18 @@ struct DPadUIView : View {
                 Button(action: { shell("shell","input","keyevent","268")}) {
                     Image("arrows_left_up") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 78/2)
                 Button(action: { shell("shell","input","keyevent","19")}) {
                     Image("arrows_up") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 63/2, height: 78/2)
                 
                 Button(action: { shell("shell","input","keyevent","270")}) {
                     Image("arrows_right_up") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 78/2)
             })
             
@@ -39,19 +39,19 @@ struct DPadUIView : View {
                 Button(action: { shell("shell","input","keyevent","21")}) {
                     Image("arrows_left") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 63/2)
                 
                 Button(action: { shell("shell","input","keyevent","23")}) {
                     Image("arrows_center") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 63/2, height: 64/2)
                 
                 Button(action: { shell("shell","input","keyevent","22")}) {
                     Image("arrows_right") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 63/2)
                 
             })
@@ -60,18 +60,18 @@ struct DPadUIView : View {
                 Button(action: { shell("shell","input","keyevent","269")}) {
                     Image("arrows_left_down") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 78/2)
                 Button(action: { shell("shell","input","keyevent","20")}) {
                     Image("arrows_down") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 63/2, height: 78/2)
                 
                 Button(action: { shell("shell","input","keyevent","271")}) {
                     Image("arrows_right_down") .renderingMode(fullColorRenderMode)
                     }
-                    .borderlessButtonStyle()
+                    .buttonStyle(BorderlessButtonStyle())
                     .frame(width: 79/2, height: 78/2)
             })
         })
